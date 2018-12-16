@@ -1,0 +1,13 @@
+#root {
+  position: relative;
+}
+
+#canvas,
+#video {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 375px;
+  height: 375px;
+  transform: translateX(-50%);
+}
